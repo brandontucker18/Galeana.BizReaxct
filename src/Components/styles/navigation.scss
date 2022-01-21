@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    width: 100%;
+    .App{
+        width: 100%;
+
+        .footer-wrapper {
+            background-color: rgb(10, 109, 134);
+            width: 150%;
+            height: 20%;
+            display: grid;
+            grid-template-columns: 1fr  1fr;
+        
+            .nav-links {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+                margin: 30px;
+        
+                .navlinks  {
+                    margin: 20px;
+                    font: size 20px;
+                    font-size: 25px;
+                   
+        
+                    a {
+                        text-decoration: none;
+                        color: rgb(244, 255, 255);
+                    }
+                }
+            }
+        } 
+    }
+
+  @media (max-width: 768px){
+       body {
+           width: 100%;
+
+         
+       }
+       .App {
+      
+        background-color:blue;
+        height: 100%;
+       }
+
+    }
+    }
+  
